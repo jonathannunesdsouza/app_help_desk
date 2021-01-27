@@ -8,13 +8,21 @@
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
+    <!-- Estilo CSS -->
+    <style>
+      .card-login {
+        padding: 30px 0 0 0;
+        width: 350px;
+        margin: 0 auto;
+      }
+    </style>
+
   </head>
 
   <body>
 
     <nav class="navbar navbar-dark bg-primary">
       <a class="navbar-brand" href="#">
-        <i class="fas fa-headset fa-2x"></i>
         App Help Desk
       </a>
     </nav>
@@ -23,7 +31,7 @@
       <div class="row">
         <div class="card-login">
           <div class="card text-white mb-3" style="max-width: 18rem;">
-          <div class="card-header bg-primary">Login</div>
+          <div class="card-header bg-primary text-center">Login</div>
           <div class="card-body">
             <form action="valida.php" method="post">
               <div class="form-group">
@@ -32,7 +40,7 @@
               <div class="form-group">
                 <input name="senha" type="password" class="form-control" placeholder="Senha">
               </div>
-              <button method='post' class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+              <button method='post' class="btn btn-lg btn-primary btn-block" type="submit"><i class="fas fa-sign-in-alt" style="font-size:25px;"></i></button>
             </form>
           </div>
         </div>

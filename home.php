@@ -18,6 +18,13 @@
       <a class="navbar-brand" href="#">
         App Help Desk
       </a>
+      <ul class="navbar-nav">
+        <li class="navbar-item">
+          <a class="nav-link text-light" href="logoff.php">
+            <i class="fas fa-sign-out-alt fa-2x"></i>
+          </a>
+        </li>
+      </ul>
     </nav>
 
     <div class="container">

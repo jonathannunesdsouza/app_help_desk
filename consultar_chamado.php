@@ -52,7 +52,7 @@
         <div class="card-consultar-chamado">
           <div class="card">
             <div class="card-header bg-primary text-white">
-              Cadastro(s) existente(s), para retroceder clique no botão abaixo do(s) card(s).
+              Chamado(s) existente(s), para retroceder clique no botão abaixo do(s) card(s).
             </div>
             <div class="card-body">
 
@@ -85,7 +85,7 @@
 
               <div class="row mt-5">
                 <div class="col-6">
-                  <a href="home.php" class="btn btn-warning btn-lg text-white d-block">
+                  <a href="home.php" class="btn btn-custom-voltar btn-warning btn-lg text-white d-block">
                     <i class="fas fa-arrow-circle-left" style="font-size:25px"></i>
                   </a>
                 </div>

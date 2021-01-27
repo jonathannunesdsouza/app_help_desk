@@ -33,7 +33,7 @@
           <div class="card text-white mb-3" style="max-width: 18rem;">
           <div class="card-header bg-primary text-center">Login</div>
           <div class="card-body">
-            <form action="valida.php" method="post">
+            <form action="valida_login.php" method="post">
               <div class="form-group">
                 <input name="email" type="email" class="form-control" placeholder="E-mail">
               </div>

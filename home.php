@@ -1,3 +1,6 @@
+<?php 
+  requires "validador_acesso.php";
+?>
 <html>
   <head>
     <meta charset="utf-8" />

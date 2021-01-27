@@ -30,10 +30,10 @@
     <div class="container">
       <div class="row" style="margin-top:30px;">
         <div class="col-6 d-flex justify-content-end">
-          <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card text-white bg-primary mb-3" style="width: 18rem;">
             <div class="card-header">Abrir chamado</div>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Aqui você pode abrir chamados no sistema de acordo com o seu problema.</p>
               <a href="abrir_chamado.php" class="btn btn-light text-primary d-block">
                 <i class="fas fa-plus-circle" style="font-size:25px"></i>
               </a>
@@ -41,10 +41,10 @@
           </div>
         </div>
         <div class="col-6 d-flex justify-content-start">
-          <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card text-white bg-primary mb-3" style="width: 18rem;">
             <div class="card-header">Consultar chamado</div>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Aqui você pode consultar os chamados existentes no sistema de acordo com seu usuário.</p>
               <a href="consultar_chamado.php" class="btn btn-light text-primary d-block">
                 <i class="fas fa-search" style="font-size:25px"></i>
               </a>

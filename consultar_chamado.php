@@ -34,7 +34,13 @@
               Cadastro(s) existente(s), para retroceder clique no botão abaixo do(s) card(s).
             </div>
             <div class="card-body">
-              //chamados
+              <div class="card border-primary mb-3" >
+                <div class="card-header bg-primary text-light">Título do chamado</div>
+                <div class="card-body text-primary">
+                  <h6 class="card-title">Categoria do chamado</h6>
+                  <p class="card-text">Descrição do chamado...</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

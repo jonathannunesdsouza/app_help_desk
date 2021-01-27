@@ -41,6 +41,14 @@
                   <p class="card-text">Descrição do chamado...</p>
                 </div>
               </div>
+              <div class="row mt-5">
+                <div class="col-6">
+                  <a href="home.php" class="btn btn-warning btn-lg text-white d-block">
+                    <i class="fas fa-arrow-circle-left" style="font-size:25px"></i>
+                  </a>
+                </div>
+              </div>
+              </div>
             </div>
           </div>
         </div>

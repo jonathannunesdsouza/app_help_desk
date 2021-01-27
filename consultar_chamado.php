@@ -8,6 +8,14 @@
 
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <style>
+      .card-consultar-chamado {
+        padding:30px 0 0 0;
+        width: 100%;
+        margin:0 auto;
+      }
+    </style>
     
   </head>
 
@@ -20,7 +28,16 @@
 
     <div class="container">
       <div class="row">
-        
+        <div class="card-consultar-chamado">
+          <div class="card">
+            <div class="card-header bg-primary text-white">
+              Cadastro(s) existente(s), para retroceder clique no botão abaixo do(s) card(s).
+            </div>
+            <div class="card-body">
+              //chamados
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

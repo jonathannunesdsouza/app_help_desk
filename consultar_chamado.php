@@ -12,5 +12,10 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">
+        App Help Desk
+      </a>
+    </nav>
   </body>
 </html>

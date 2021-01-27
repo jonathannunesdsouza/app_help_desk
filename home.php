@@ -1,5 +1,5 @@
 <?php 
-  requires "validador_acesso.php";
+  require_once "validador_acesso.php";
 ?>
 <html>
   <head>
@@ -27,7 +27,7 @@
             <div class="card-header">Abrir chamado</div>
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-light text-primary d-block">
+              <a href="abrir_chamado.php" class="btn btn-light text-primary d-block">
                 <i class="fas fa-plus-circle" style="font-size:25px"></i>
               </a>
             </div>
@@ -38,7 +38,7 @@
             <div class="card-header">Consultar chamado</div>
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-light text-primary d-block">
+              <a href="consultar_chamado.php" class="btn btn-light text-primary d-block">
                 <i class="fas fa-search" style="font-size:25px"></i>
               </a>
             </div>

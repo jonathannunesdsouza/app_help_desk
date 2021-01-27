@@ -1,6 +1,16 @@
 <?php 
   require_once "validador_acesso.php";
 ?>
+<?php 
+  $chamados = array();
+
+  $arquivo = fopen('registros.hd', 'r');
+
+  while(!feof($arquivo)) {
+    $registro = fgets($arquivo);
+    $chamados[] = $registro;
+  }
+?>
 
 <html>
   <head>

@@ -11,5 +11,15 @@
   </head>
 
   <body>
+
+    <nav class="navbar navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-headset fa-2x"></i>
+        App Help Desk
+      </a>
+    </nav>
+
+    
+
   </body>
 </html>

@@ -40,11 +40,19 @@
               <div class="form-group">
                 <input name="senha" type="password" class="form-control" placeholder="Senha">
               </div>
+
               <? if (isset($_GET['login']) && $_GET['login'] == 'erro') {?>
                 <div class="text-danger mb-2">
                   Usuário ou senha inválido(s)!
                 </div>
               <? } ?>
+
+              <? if (isset($_GET['login']) && $_GET['login'] == 'erro3') {?>
+                <div class="text-danger mb-2">
+                  Sessão finalizada! Faça o login novamente.
+                </div>
+              <? } ?>
+
               <button method='post' class="btn btn-lg btn-primary btn-block" type="submit"><i class="fas fa-sign-in-alt" style="font-size:25px;"></i></button>
             </form>
           </div>

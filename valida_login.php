@@ -6,7 +6,9 @@
     $usuario_autenticado = false;
     $usuarios_app = array(
         array('id' => 1, 'email' => 'adm@servicedesk.com', 'senha' => '1234', 'usuario_perfil_id' => 1),
-        array('id' => 2, 'email' => 'tecnico@servicedesk.com', 'senha' => '1234', 'usuario_perfil_id' => 1)
+        array('id' => 2, 'email' => 'tecnico@servicedesk.com', 'senha' => '1234', 'usuario_perfil_id' => 1),
+        array('id' => 3, 'email' => 'usuario_comum@servicedesk.com', 'senha' => '1234', 'usuario_perfil_id' => 2),
+        array('id' => 4, 'email' => 'usuario_comum2@servicedesk.com', 'senha' => '1234', 'usuario_perfil_id' => 2)
     );
 
     foreach($usuarios_app as $user) {

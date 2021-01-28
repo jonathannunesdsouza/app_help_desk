@@ -3,6 +3,11 @@
 
 Este projeto é uma aplicação web capaz de autenticar usuários em um sistema de Helpdesk. Os usuários de nível comum conseguem adicionar e consultar chamados (apenas os feitos por ele mesmo) e usuários de nível técnico conseguem ver todos os chamados registrados no sistema.
 
+#### **Detalhes:**
+- Os chamados são atribuidos com uma categoria;
+- Os dados cadastrais de usuários p/ login são feitos via hard-code;
+- Os registros são salvos em um arquivo na raiz do projeto.
+
 ### Exibição - login de usuário/página inicial
 
 ![screenshoot 1](imagens/screenshoot1.png "Tela de login / Página inicial")
